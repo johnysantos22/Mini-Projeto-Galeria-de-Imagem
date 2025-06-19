@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --gray-color: rgba(209, 213, 219, 1);
+    --white-color: rgba(255, 255, 255, 1);
+    --black-color: rgba(0, 0, 0, 1);
+    --blackgroud-light: rgba(234, 239, 248, 1);
+    --dark-color: rgba(30, 30, 30, 1);
+}
+
