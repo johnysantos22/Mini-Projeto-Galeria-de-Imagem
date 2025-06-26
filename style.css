@@ -9,6 +9,7 @@
     --black-color: rgba(0, 0, 0, 1);
     --blackgroud-light: rgba(234, 239, 248, 1);
     --dark-color: rgba(30, 30, 30, 1);
+    --green-color: rgb(7, 248, 63);
 }
 
 body {
@@ -16,6 +17,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     background-color: var(--dark-color);
+    overflow-x: hidden;
 }
 
 h1 {
@@ -38,7 +40,7 @@ nav {
 
     color: var(--white-color);
     cursor: pointer;
-  margin: 200px 15px 200px 15px;
+    margin: 200px 15px 200px 15px;
     display: flex;
     flex-direction: column;
 }
@@ -48,7 +50,7 @@ i {
     margin: 40px;
 }
 
-.img {
+.imgs {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
@@ -62,4 +64,18 @@ img {
     width: 44%;
     height: 100%;
     object-fit: cover;
+}
+
+button {
+    color: var(--black-color);
+    background-color: var(--green-color);
+    position: relative;
+    left: 500px;
+    margin-top: 1rem;
+    padding: 4px 8px;
+    border: none;
+}
+
+.hidden {
+    display: none;
 }
