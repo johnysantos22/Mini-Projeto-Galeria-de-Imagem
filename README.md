@@ -4,7 +4,7 @@ Este projeto tem como objetivo criar uma **galeria de fotos interativa e respons
 
 ## 🔗 Link do Projeto
 
-[🔍 Acesse o Projeto Online](https://johnysantos22.github.io/galeria-de-imagens)
+[🔍 Acesse o Projeto Online](https://github.com/johnysantos22/Mini-Projeto-Galeria-de-Imagem)
 
 ---
 
@@ -50,5 +50,5 @@ Construir uma aplicação web simples que apresente:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/johnysantos22/galeria-de-imagens.git
+   git clone https://github.com/johnysantos22/Mini-Projeto-Galeria-de-Imagem
 
