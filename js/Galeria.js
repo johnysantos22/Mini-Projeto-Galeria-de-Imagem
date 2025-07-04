@@ -1,24 +1,18 @@
-/*class Galeria {
-    constructor(imagemSelector, botaoSelector) {
-        this.imagemElement = document.querySelector(imagemSelector);
-        this.botaoElement = document.querySelector(botaoSelector);
+export default class Galeria {
+    constructor(containerSelector, botaoSelector) {
+        this.container = document.querySelector(containerSelector);
+        this.imagensEscondidas = this.container.querySelectorAll('.hidden');
+        this.botao = document.querySelector(botaoSelector);
+
         this.init();
     }
 
     init() {
-        this.botaoElement.addEventListener('click', () => {
-            this.verMais();
-        });
+        this.botao.addEventListener('click', () => this.mostrarTodas());
     }
 
-    verMais() {
-        if (this.imagemElement.style.display === 'none'
-            || this.imagemElement.style.display === '') {
-            this.imagemElement.style.display = 'block';
-            this.botaoElement.textContent = 'Ver Menos';
-        } else {
-            this.imagemElement.style.display = 'none';
-            this.botaoElement.textContent = 'Ver Mais';
-        }
+    mostrarTodas() {
+        this.imagensEscondidas.forEach(img => img.classList.remove('hidden'));
+        this.botao.style.display = 'none';
     }
-}*/
+}
